@@ -3,7 +3,7 @@
 
 @layer base {
   body {
-    @apply bg-slate-900 text-white antialiased;
+    @apply bg-slate-900 text-white antialiased overflow-x-hidden;
     font-family: 'Poppins', sans-serif;
   }
 }
