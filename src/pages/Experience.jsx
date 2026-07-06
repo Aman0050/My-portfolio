@@ -5,26 +5,26 @@ import PageWrapper from "../components/PageWrapper";
 const Experience = () => {
   const experiences = [
     {
-      role: "Trainee GIS Analyst",
+      role: "GIS Analyst",
       company: "Falcon Info Solutions",
       duration: "Aug 2025 – Present",
       responsibilities: [
-        "Developed comprehensive GIS dashboards for real-time spatial analysis.",
-        "Implemented Python automation scripts to streamline data processing workflows.",
-        "Managed SQL database handling for efficient spatial querying.",
-        "Created engaging data visualizations to aid decision-making processes."
+        "Developed and maintained the company's official website using React.js, improving responsiveness and user experience.",
+        "Worked on GIS and telecom projects involving ArcGIS, DTP Planning, and OFC network planning.",
+        "Managed GIS datasets and shapefiles for mapping, analysis, and reporting.",
+        "Collaborated with cross-functional teams on requirement analysis, testing, documentation, and feature implementation."
       ],
-      technologies: ["Python", "SQL", "GIS", "Data Visualization", "Dashboards"],
+      technologies: ["React.js", "ArcGIS", "QGIS", "Python", "SQL"],
     },
     {
       role: "Associate Trainer Intern",
       company: "Face Prep",
-      duration: "March 2025 – July 2025",
+      duration: "Mar 2025 – Jul 2025",
       responsibilities: [
-        "Conducted specialized LinkedIn training sessions for students.",
-        "Worked closely with lead trainers to develop curriculum.",
-        "Resolved student queries and provided technical assistance.",
-        "Mentored students on career development and technical skills."
+        "Successfully conducted over 15+ training sessions on LinkedIn, aimed at enhancing the skills of college students.",
+        "Collaborated closely with lead trainers to organize and deliver interactive workshops and mock tests.",
+        "Proactively addressed and resolved student queries in a timely manner, providing personalized support.",
+        "Received positive feedback from 90+ participants for effective training delivery and engagement."
       ],
       technologies: ["Mentoring", "Training", "Communication", "LinkedIn"],
     }

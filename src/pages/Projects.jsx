@@ -9,9 +9,9 @@ const Projects = () => {
       id: "fitxeno",
       title: "FitXeno",
       badge: "💼 Client Project | ⭐ Featured | 🌐 Live",
-      description: "Designed and developed a production-ready fitness and wellness website for a real client. Built a responsive, modern, and high-performance web application with a strong focus on UI/UX, accessibility, SEO, and reusable React components.",
+      description: "Developed a multi-tenant Gym Management SaaS for managing members, attendance, membership, and payments. Built a responsive frontend using React.js, HTML5, CSS3, and JavaScript for a seamless cross-device experience. Integrated secure REST APIs with JWT authentication for scalable and secure data management. Implemented attendance, payment, inventory, analytics, and reporting modules to streamline gym operations.",
       image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=1400",
-      techStack: ["React.js", "Vite", "Tailwind CSS", "JavaScript", "Framer Motion", "React Router"],
+      techStack: ["React.js", "JavaScript", "Bootstrap 5", "Node.js", "Express.js"],
       stats: [
         { label: "Responsive", icon: <Smartphone className="text-sky-400" size={24} /> },
         { label: "Performance", icon: <Zap className="text-yellow-400" size={24} /> },
@@ -65,9 +65,9 @@ const Projects = () => {
     {
       title: "Personal Portfolio",
       badge: "🎨 Portfolio",
-      description: "Designed and developed my own responsive portfolio website showcasing projects, experience, technical skills, certifications, and achievements using modern frontend technologies.",
+      description: "Developed a responsive portfolio using React.js, Vite, and Tailwind CSS to showcase skills and projects. Implemented smooth animations with Framer Motion and client-side routing using React Router. Optimized performance and responsiveness while integrating GitHub repositories and live project links.",
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
-      badges: ["React", "Vite", "Tailwind CSS", "Framer Motion"],
+      badges: ["React.js", "Vite", "Tailwind CSS", "Framer Motion", "React Router"],
       demoLink: "#",
       githubLink: "#",
     },

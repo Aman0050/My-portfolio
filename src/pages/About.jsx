@@ -26,7 +26,7 @@ const About = () => {
             I am a <strong className="text-white font-semibold">B.Tech Computer Science graduate</strong> from Greater Noida Institute of Technology with a strong foundation in software engineering and web technologies.
           </p>
           <p>
-            Currently, I am working as a <strong className="text-white font-semibold">Trainee GIS Analyst</strong> at Falcon Info Solutions, where I develop comprehensive GIS dashboards and implement Python automation workflows. Prior to this, I gained valuable experience as an <strong className="text-white font-semibold">Associate Trainer Intern</strong> at Face Prep, mentoring students and conducting training sessions.
+            Currently, I am working as a <strong className="text-white font-semibold">GIS Analyst</strong> at Falcon Info Solutions, where I develop and maintain the company's official website using React.js and work on various GIS and telecom projects. Prior to this, I gained valuable experience as an <strong className="text-white font-semibold">Associate Trainer Intern</strong> at Face Prep, mentoring students and conducting training sessions.
           </p>
           <p>
             I have a deep passion for <strong className="text-sky-400 font-semibold">Full Stack Development</strong>. My expertise lies in building dynamic, responsive, and user-centric web applications using modern frameworks like React and Vite, combined with robust backend technologies.

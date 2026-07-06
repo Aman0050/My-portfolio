@@ -5,19 +5,29 @@ import { Code, Database, Wrench } from "lucide-react";
 const Skills = () => {
   const skillCategories = [
     {
+      title: "Languages",
+      icon: <Code className="text-pink-400 mb-6" size={32} />,
+      skills: ["JavaScript", "Python"],
+    },
+    {
       title: "Frontend",
       icon: <Code className="text-sky-400 mb-6" size={32} />,
-      skills: ["React", "JavaScript", "HTML", "CSS", "Tailwind CSS"],
+      skills: ["React.js", "HTML5", "CSS3", "Tailwind CSS", "Bootstrap 5", "Vite"],
     },
     {
-      title: "Backend",
+      title: "Backend & DB",
       icon: <Database className="text-purple-400 mb-6" size={32} />,
-      skills: ["Python", "SQL"],
+      skills: ["Node.js", "Express.js", "PostgreSQL", "SQL", "REST APIs", "JWT"],
     },
     {
-      title: "Tools & Others",
+      title: "GIS & Telecom",
+      icon: <Wrench className="text-emerald-400 mb-6" size={32} />,
+      skills: ["ArcGIS", "QGIS", "DTP Planning", "OFC Network Planning"],
+    },
+    {
+      title: "Tools",
       icon: <Wrench className="text-orange-400 mb-6" size={32} />,
-      skills: ["Git", "GitHub", "VS Code", "ArcGIS", "QGIS"],
+      skills: ["VS Code", "Git", "GitHub"],
     },
   ];
 

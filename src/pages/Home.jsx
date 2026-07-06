@@ -35,7 +35,7 @@ const Home = () => {
           </h1>
           
           <h2 className="text-xl md:text-2xl text-slate-300 font-medium tracking-wide uppercase mt-4">
-            Full Stack Developer <span className="text-sky-500 mx-2">|</span> GIS Analyst <span className="text-sky-500 mx-2">|</span> Python Enthusiast
+            React Developer <span className="text-sky-500 mx-2">|</span> GIS Analyst
           </h2>
           
           <p className="text-lg md:text-xl text-slate-400 leading-relaxed max-w-2xl mx-auto mt-6">
@@ -44,7 +44,7 @@ const Home = () => {
           
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4 pt-8">
             <a 
-              href="/Aman_Naeem_Resume.pdf" 
+              href={`${import.meta.env.BASE_URL}Aman_Naeem_Resume.pdf`} 
               download="Aman_Naeem_Resume.pdf"
               className="w-full sm:w-auto flex items-center justify-center gap-2 bg-sky-500 hover:bg-sky-400 text-white px-8 py-4 rounded-[20px] font-bold transition-all duration-300 shadow-lg shadow-sky-500/25 hover:shadow-sky-500/40 transform hover:-translate-y-1"
             >
